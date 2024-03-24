@@ -1,28 +1,30 @@
 
 import './App.css'
+import GrandPa from './GrandPa/GrandPa'
 // import HookForm from './Components/stateFull/RefForm/HookForm/HookForm'
-import ReUsable from './ReUsable/ReUsable'
+// import ReUsable from './ReUsable/ReUsable'
 // import RefFrom from './Components/stateFull/RefForm/RefFrom'
 // import SimpleForm from './Components/SimpleForm/SimpleForm'
 // import StateFull from './Components/stateFull/StateFull'
 
 function App() {
 
-  const handleSignUpSubmit = data => {
-    console.log('Sign up data', data);
-}
-const handleProfileUpdateSubmit = data => {
-  console.log('Profile up date data' , data);
-}
+//   const handleSignUpSubmit = data => {
+//     console.log('Sign up data', data);
+// }
+// const handleProfileUpdateSubmit = data => {
+//   console.log('Profile up date data' , data);
+// }
 
   return (
     <>
-      <h1>Vite + React</h1>
+      <h1>Master Form</h1>
+      <GrandPa></GrandPa>
       {/* <SimpleForm></SimpleForm> */}
       {/* <StateFull></StateFull> */}
       {/* <RefFrom></RefFrom> */}
       {/* <HookForm></HookForm> */}
-      <ReUsable 
+      {/* <ReUsable 
       submitTitle={'Sign Up'} 
       handleSubmit={handleSignUpSubmit}>
         <div>
@@ -39,7 +41,7 @@ const handleProfileUpdateSubmit = data => {
           <h2>Profile Update</h2>
           <p>Always keep your profile updated</p>
         </div>
-      </ReUsable>
+      </ReUsable> */}
       
     </>
   )
